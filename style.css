@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background-section{
+    width: 100%;
+    height: auto;
+    background-color:black;
+    
+
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: rgb(94, 66, 66);
+    padding-inline: 3%;
+    padding-block: 3%;
+}
+
+.core-part{
+    width: 100%;
+    height: auto;
+    padding-block: 10px;
+    padding-inline: 20px;
+    background-color: white;
+}
+
+.navbar{
+
+    width: 100%;
+    height: auto;
+    padding-block: 10px;
+    padding-inline: 20px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.navbar a{
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.navbar a:hover{
+    color: rgb(206, 155, 88);
+}
+
+.navbar img{
+    margin-left: 150px;
+}
+
+.navbar span{
+    margin-left: 330px;
+}
+
+.first-container{
+    width: 100%;
+    height: auto;
+    
+   display: flex;
+   
+}
+
+.a-part{
+    width: 50%;
+    height: auto;
+    padding: 40px;
+}
+
+.a-part img{
+    width: 50px;
+}
+
+.a-part h1{
+    color: rgb(107, 79, 79);
+    font-weight: 800;
+    font-size: 60px;
+    margin-top: 10px;
+
+}
+
+.a-part h2{
+    color: rgb(255, 213, 0);
+    font-weight: 800;
+    font-size: 60px;
+}
+
+.a-part p{
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.a-part p:hover{
+    color: rgb(206, 155, 88);
+}
+
+.a-part span{
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.a-part span button{
+   padding-block: 20px;
+   padding-inline: 40px;
+   background-color: rgb(255, 213, 0);
+   border-radius: 10px;
+   color: white;
+
+}
+
+.a-part span button:hover{
+    background-color: rgb(139, 103, 103);
+}
+
+.a-part a{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: rgb(107, 79, 79);
+}
+
+.a-part a:hover{
+    color: rgb(206, 155, 88);
+}
+
+.b-part{
+    width: 50%;
+    padding: 40px;
+
+}
+
+.b-part img{
+    width: 100%;
+}
+
+.second-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+
+
+}
+
+.part-one{
+    width: 300px;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    margin-top:60px;
+    margin-left: 10px;
+  
+
+}
+
+.part-one span{
+    display: inline;
+    margin-left: 10px;
+}
+
+.part-one span h5{
+   
+   color:  rgb(255, 174, 0);
+}
+
+.part-one h3{
+    
+    color: rgb(107, 79, 79) ;
+}
+
+.part-one hr{
+    height: 60px;
+    margin-left: 10px;
+}
+
+#o{
+    display: inline;
+}
+
+.part-two{
+    width: 300px;
+    height: auto;
+   
+    padding: 30px;
+   
+    margin-left: 50px;
+
+}
+
+.part-two img{
+    width: 100%;
+    margin-left: 10px;
+}
+
+.part-three{
+    width: 300px;
+    height: auto;
+   
+    padding: 30px;
+   
+    margin-left: 50px;
+
+}
+
+.part-three span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.part-three span h2{
+    font-size: 30px;
+    color: rgb(107, 79, 79);
+    margin-right: 10px;
+}
+
+.part-three span h3{
+    font-size: 30px;
+    color:rgb(255, 174, 0) ;
+}
+
+.part-three p{
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+#card{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+#last{
+    position: relative;
+    left: 260px;
+    
+}
+
+@media (max-width: 480px ) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .background-section{
+        width: 100%;
+        height: auto;
+        background-color:black;
+        
+    
+    }
+    
+    .main-container{
+        width: 100%;
+        height: auto;
+        background-color: rgb(94, 66, 66);
+        padding-inline: 3%;
+        padding-block: 3%;
+    }
+    
+    .core-part{
+        width: 100%;
+        height: auto;
+        padding-block: 10px;
+        padding-inline: 20px;
+        background-color: white;
+    }
+    
+    .navbar{
+    
+        width: 100%;
+        height: auto;
+        padding-block: 10px;
+        padding-inline: 20px;
+        background-color: white;
+        display: flex;
+        
+    }
+    
+    .navbar a{
+        color: black;
+        margin-left: 20px;
+        margin-top: 20px;
+        
+    }
+    
+    .navbar a:hover{
+        color: rgb(206, 155, 88);
+    }
+    
+    .navbar img{
+        margin-left: 150px;
+        display: none;
+    }
+    
+    .navbar span{
+        margin-left: 330px;
+        display: none;
+    }
+    
+    .first-container{
+        width: 100%;
+        height: auto;
+        
+       display: inline;
+       
+    }
+    
+    .a-part{
+        width: 100%;
+        height: auto;
+        padding: 40px;
+    }
+    
+    .a-part img{
+        width: 50px;
+        margin-left: 40%;
+    }
+    
+    .a-part h1{
+        color: rgb(107, 79, 79);
+        font-weight: 800;
+        font-size: 60px;
+        margin-top: 10px;
+        text-align: center;
+    
+    }
+    
+    .a-part h2{
+        color: rgb(255, 213, 0);
+        font-weight: 800;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .a-part p{
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+    }
+    
+    .a-part p:hover{
+        color: rgb(206, 155, 88);
+    }
+    
+    .a-part span{
+        margin-top: 40px;
+        display: flex;
+    
+    }
+    
+    .a-part span button{
+       padding-block: 20px;
+       padding-inline: 40px;
+       background-color: rgb(255, 213, 0);
+       border-radius: 10px;
+       color: white;
+    
+    }
+    
+    .a-part span button:hover{
+        background-color: rgb(139, 103, 103);
+    }
+    
+    .a-part a{
+        margin-left: 20px;
+        margin-top: 20px;
+        color: rgb(107, 79, 79);
+    }
+    
+    .a-part a:hover{
+        color: rgb(206, 155, 88);
+    }
+    
+    .b-part{
+        width: 100%;
+        padding: 40px;
+    
+    }
+    
+    .b-part img{
+        width: 100%;
+    }
+    
+    .second-container{
+        width: 100%;
+        height: auto;
+        display: inline;
+    
+    
+    }
+    
+    .part-one{
+        width: 300px;
+        height: auto;
+        display: flex;
+        padding: 10px;
+        margin-top:60px;
+      
+       margin-left: 13%;
+    
+    }
+    
+    .part-one span{
+        display: inline;
+       
+    }
+    
+    .part-one span h5{
+       
+       color:  rgb(255, 174, 0);
+    }
+    
+    .part-one h3{
+        
+        color: rgb(107, 79, 79) ;
+    }
+    
+    .part-one hr{
+        height: 60px;
+       
+    }
+    
+    #o{
+        display: inline;
+    }
+    
+    .part-two{
+        width: 300px;
+        height: auto;
+       
+        padding: 30px;
+       
+        margin-left: 50px;
+    
+    }
+    
+    .part-two img{
+        width: 100%;
+        margin-left: 10px;
+    }
+    
+    .part-three{
+        width: 300px;
+        height: auto;
+       
+        padding: 30px;
+       
+        margin-left: 50px;
+    
+    }
+    
+    .part-three span{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    .part-three span h2{
+        font-size: 30px;
+        color: rgb(107, 79, 79);
+        margin-right: 10px;
+    }
+    
+    .part-three span h3{
+        font-size: 30px;
+        color:rgb(255, 174, 0) ;
+    }
+    
+    .part-three p{
+        font-size: 20px;
+        margin-left: 60px;
+    }
+    
+    #card{
+        width: 50px;
+        height: 50px;
+        margin-top: 50px;
+    }
+    
+    #last{
+        position: relative;
+        left: 230px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
